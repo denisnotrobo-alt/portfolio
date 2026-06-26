@@ -38,7 +38,7 @@
   </header>
 
   <main>
-    <section>
+    <section id="hero">
       <h2>Olá, sou o Mago da Silva</h2>
       <p>Sou um estudante de desenvolvimento frontend pelo Instituto Proa.</p>
       <p>Atualmente, estou focado em aprender os principios de UX e UI design. Em breve, vou mergulhar no mundo do HTML,
@@ -48,7 +48,7 @@
         alt="Foto de perfil de Mago da Silva. Mulher preta usando óculos com uma luz de fundo na cor verde">
     </section>
 
-    <section>
+    <section id="projetos">
       <h2>Meus projetos</h2>
       <p>Confira alguns dos meus projetos e a qualidade presente em cada um deles.</p>
 
@@ -86,18 +86,25 @@
     <section>
       <h2>Entre em contato</h2>
       <form>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="Ex: Ana Silva">
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Ex: Ana Silva">
+        </div>
 
-        <label for="telefone">Telefone</label>
-        <input type="tel" name="telefone" id="telefone" placeholder="Ex: 11 99999-8888">
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" id="telefone" placeholder="Ex: 11 99999-8888">
+        </div>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Ex: seu@email.com">
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Ex: seu@email.com">
+        </div>
 
-        <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem" id="mensagem" placeholder="Ex: Olá, gostaria de fazer um orçamento!"></textarea>
-
+        <div>
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" placeholder="Ex: Olá, gostaria de fazer um orçamento!"></textarea>
+        </div>
         <button type="submit">Enviar</button>
       </form>
     </section>
