@@ -21,119 +21,131 @@
 <body>
 
   <header>
-    <a href="/">MS</a>
+    <div class="container">
+      <div class="header">
+        <a href="/">MS</a>
 
-    <nav>
-      <button type="button">
-        <img src="assets/icons/menu-hamburguer.svg" alt="">
-      </button>
+        <nav>
+          <button type="button">
+            <img src="assets/icons/menu-hamburguer.svg" alt="">
+          </button>
 
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Projetos</a></li>
-        <li><a href="">Sobre</a></li>
-        <li><a href="">Contato</a></li>
-      </ul>
-    </nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section id="hero">
-      <h2>Olá, sou o Mago da Silva</h2>
-      <p>Sou um estudante de desenvolvimento frontend pelo Instituto Proa.</p>
-      <p>Atualmente, estou focado em aprender os principios de UX e UI design. Em breve, vou mergulhar no mundo do HTML,
-        CSS e JavaScript</p>
-
-      <img src="assets/img/foto-mago.jpg"
-        alt="Foto de perfil de Mago da Silva. Mulher preta usando óculos com uma luz de fundo na cor verde">
-    </section>
-
-    <section id="projetos">
-      <h2>Meus projetos</h2>
-      <p>Confira alguns dos meus projetos e a qualidade presente em cada um deles.</p>
-
-      <ul>
-        <li>
-          <article>
-            <img src="assets/img/capa-projeto-card.jpg" alt="Capa do projeto card">
-            <h3>Site receita de bolo</h3>
-            <p>Exemplo de como criar um card bonito e acessível</p>
-            <a href="https://google.com" target="_blank">Acesse o projeto</a>
-          </article>
-        </li>
-
-        <li>
-          <article>
-            <img src="assets/img/capa-projeto-card.jpg" alt="Capa do projeto card">
-            <h3>Site receita de bolo</h3>
-            <p>Exemplo de como criar um card bonito e acessível</p>
-            <a href="https://google.com" target="_blank">Acesse o projeto</a>
-          </article>
-        </li>
-
-        <li>
-          <article>
-            <img src="assets/img/capa-projeto-card.jpg" alt="Capa do projeto card">
-            <h3>Site receita de bolo</h3>
-            <p>Exemplo de como criar um card bonito e acessível</p>
-            <a href="https://google.com" target="_blank">Acesse o projeto</a>
-          </article>
-        </li>
-
-      </ul>
-    </section>
-
-    <section>
-      <h2>Entre em contato</h2>
-      <form>
+    <div class="container">
+      <section id="hero">
         <div>
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" placeholder="Ex: Ana Silva">
+          <h2>Olá, sou o <span>Mago da Silva</span></h2>
+          <p>Sou um estudante de desenvolvimento frontend pelo Instituto Proa.</p>
+          <p>Atualmente, estou focado em aprender os principios de UX e UI design. Em breve, vou mergulhar no mundo do
+            HTML,
+            CSS e JavaScript</p>
         </div>
 
-        <div>
-          <label for="telefone">Telefone</label>
-          <input type="tel" name="telefone" id="telefone" placeholder="Ex: 11 99999-8888">
-        </div>
+        <img src="assets/img/foto-mago.jpg"
+          alt="Foto de perfil de Mago da Silva. Mulher preta usando óculos com uma luz de fundo na cor verde">
+      </section>
 
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Ex: seu@email.com">
-        </div>
+      <section id="projetos">
+        <h2>Meus projetos</h2>
+        <p>Confira alguns dos meus projetos e a qualidade presente em cada um deles.</p>
 
-        <div>
-          <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" placeholder="Ex: Olá, gostaria de fazer um orçamento!"></textarea>
-        </div>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+        <ul>
+          <li>
+            <article>
+              <img src="assets/img/capa-projeto-card.jpg" alt="Capa do projeto card">
+              <h3>Site receita de bolo</h3>
+              <p>Exemplo de como criar um card bonito e acessível</p>
+              <a href="https://google.com" target="_blank">Acesse o projeto</a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <img src="assets/img/capa-projeto-card.jpg" alt="Capa do projeto card">
+              <h3>Site receita de bolo</h3>
+              <p>Exemplo de como criar um card bonito e acessível</p>
+              <a href="https://google.com" target="_blank">Acesse o projeto</a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <img src="assets/img/capa-projeto-card.jpg" alt="Capa do projeto card">
+              <h3>Site receita de bolo</h3>
+              <p>Exemplo de como criar um card bonito e acessível</p>
+              <a href="https://google.com" target="_blank">Acesse o projeto</a>
+            </article>
+          </li>
+
+        </ul>
+      </section>
+
+      <section>
+        <h2>Entre em contato</h2>
+        <form>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Ex: Ana Silva">
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Ex: 11 99999-8888">
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Ex: seu@email.com">
+          </div>
+
+          <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Ex: Olá, gostaria de fazer um orçamento!"></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </div>
   </main>
 
   <footer>
-    <nav>
-      <ul>
-        <li>
-          <a href="https://instagram.com" target="_blank">
-            <img src="assets/icons/instagram.svg" alt="">
-          </a>
-        </li>
+    <div class="container">
 
-        <li>
-          <a href="https://linkedin.com" target="_blank">
-            <img src="assets/icons/linkedin.svg" alt="">
-          </a>
-        </li>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <img src="assets/icons/instagram.svg" alt="">
+            </a>
+          </li>
 
-        <li>
-          <a href="https://github.com" target="_blank">
-            <img src="assets/icons/github.svg" alt="">
-          </a>
-        </li>
-      </ul>
-    </nav>
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <img src="assets/icons/linkedin.svg" alt="">
+            </a>
+          </li>
 
-    <p>&copy; Todos os direitos reservados</p>
+          <li>
+            <a href="https://github.com" target="_blank">
+              <img src="assets/icons/github.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <p>&copy; Todos os direitos reservados</p>
+    </div>
   </footer>
 </body>
 
